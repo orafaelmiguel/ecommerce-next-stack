@@ -2,8 +2,12 @@ import { Button } from "@/components/ui/button"
 
 const Homepage = () => {
   return ( 
-    <Button>Button</Button>
-   )
+    <div>
+      <h1>
+        <Button>Click Here...</Button>
+      </h1>
+    </div>
+  )
 }
  
 export default Homepage
